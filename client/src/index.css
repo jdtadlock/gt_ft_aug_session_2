@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 35px;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.row, .column {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.y-center {
+	align-items: center;
+}
+
+form {
+	width: 350px;
+	margin: 0 auto;
+}
+
+form input, button {
+	padding: 6px;
+	margin-bottom: 5px;
+}
